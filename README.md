@@ -56,6 +56,4 @@ The aim of this project is to build a predictive model for liver disease using p
 
 📅 **Status:** ✅ Phase 1 Complete – Stay tuned for Phase 2 updates!
 
----
 
-Do you want me to also make a **LinkedIn post version** of this README so you can directly share your Phase 1 milestone there? That would make it short, engaging, and audience-friendly.
