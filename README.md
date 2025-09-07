@@ -1,5 +1,16 @@
 # Predictive_analysis_for_liver_disease
 
+Liver disease cases are continuously increasing due to:
+🍺 Excessive alcohol consumption
+😷 Inhalation of harmful gases
+🍲 Contaminated food/pickles
+💊 Prolonged drug usage
+
+To support doctors with early diagnosis, I worked with a liver disease dataset (collected from North East Andhra Pradesh, India 🇮🇳) consisting of 583 patient records (416 positive, 167 negative).
+
+⚖️ The dataset is imbalanced (~2.5:1), requiring proper handling during ML model training.
+
+📑 Dataset Features include age, gender, bilirubin levels, enzyme counts (SGPT, SGOT, Alkaline Phosphatase), protein levels, albumin, and A/G ratio.
 
 # Liver Disease Prediction – Phase 1
 
@@ -54,6 +65,19 @@ The aim of this project is to build a predictive model for liver disease using p
 
 ---
 
-📅 **Status:** ✅ Phase 1 Complete – Stay tuned for Phase 2 updates!
+🚀 Phase 2 Work: Model Training & Deployment
+
+✅ Trained and compared multiple ML models: Logistic Regression, Random Forest, and XGBoost.
+🏆 Best model: XGBoost with:
+
+Accuracy: 82.24%
+
+F1-Score: 0.8298
+
+ROC-AUC: 0.9406
+
+✅ Saved the model and deployed it with Streamlit as an interactive web app.
+
+🖥️ Liver Disease Prediction App allows users to input patient details (age, enzyme levels, proteins, etc.) and instantly get a prediction with probability scores.
 
 
